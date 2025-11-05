@@ -1,3 +1,4 @@
+# config map file used to send data upto pods, here i wanna create a table in mysql database and for that sending sql query through this config map file.
 apiVersion: v1
 kind: ConfigMap
 metadata:
