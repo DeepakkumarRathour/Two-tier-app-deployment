@@ -19,7 +19,7 @@ spec:
           image: deepak18052000/flaskapp:tagname
           env:
             - name: MYSQL_HOST
-              value: mysql          # this is your mysql's service clusture IP, Make sure to change it with yours
+              value: mysql        # Make sure to change it with yours cluster IP
             - name: MYSQL_PASSWORD
               value: "admin"
             - name: MYSQL_USER
